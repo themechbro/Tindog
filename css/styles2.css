@@ -1,0 +1,103 @@
+.Login{
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
+}
+.info{
+margin: auto;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1;
+}
+hr{
+  border-top: dotted;
+  border-color: grey;
+  border-width: 5px;
+}
+.titleimage{
+  margin: 20px 0;
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.container-fluid {
+  padding:  0 15% 7%;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+#footer{
+
+  text-align: center;
+padding: 7% 15%;
+color: #fff;
+}
+.row{
+  text-align:center;
+  padding: 10% 0 0 0;
+}
+.arrows{
+  color: black;
+}
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.OTP{
+  padding-bottom: 5%;
+}
+.lang{
+  padding: 10px 5px;
+  color: #fff;
+}
+.misc{
+  padding: 10px 10px;
+  font-family: "Ubuntu";
+  margin: auto;
+
+}
+.footer1{
+  background-color: #ef8172;
+  width: 100%;
+}
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.form{
+  font-family: "Ubuntu";
+}
